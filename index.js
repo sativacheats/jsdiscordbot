@@ -39,7 +39,6 @@ bot.on("ready", () => {
 if(config.token === "YOUR_SECRET_TOKEN") return console.log("[codingLenny] - You have to change your token in config.json!")
 
 bot.on("message", async message => {
-    //a little bit of data parsing/general checks
     if(message.author.bot) return;
     if(message.channel.type === 'dm') return;
     let content = message.content.split(" ");
@@ -47,8 +46,6 @@ bot.on("message", async message => {
     let args = content.slice(1);
     let prefix = config.prefix;
   
-  
-    //checks if message contains a command and runs it
     let commandfile = bot.commands.get(command.slice(prefix.length));
     if(commandfile) commandfile.run(bot,message,args);
   })
