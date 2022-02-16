@@ -1,0 +1,14 @@
+{
+  "name": "discordtemplatebot",
+  "version": "1.0.0",
+  "description": "This is template for your discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sativa / codingLenny",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
