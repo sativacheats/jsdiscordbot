@@ -1,5 +1,6 @@
 # jsdiscordbot - template discord.js bot
 This is a template for your discord bot.
+< released >
 
 <p align="center">
   <img src="https://i.imgur.com/4M7IWwP.gif" width="350" >
