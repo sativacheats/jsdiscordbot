@@ -15,3 +15,4 @@ This is a template for your discord bot.
   <img src="https://i.imgur.com/4M7IWwP.gif" width="350" >
 </p>
 
+
